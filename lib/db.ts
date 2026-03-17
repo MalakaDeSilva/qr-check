@@ -1,4 +1,5 @@
 import { MongoClient, Db } from "mongodb";
+import { RequestDoc } from "./types";
 
 const uri = process.env.MONGODB_URI!;
 const dbName = process.env.MONGODB_DB_NAME || "qr-release";
